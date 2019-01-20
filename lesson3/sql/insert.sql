@@ -24,3 +24,13 @@ INSERT INTO staff ( lastname, firstname, email, age, ssn) VALUES ('Obrien', 'Bri
 INSERT INTO staff ( lastname, firstname, email, age, ssn) VALUES ('Clinton', 'Lisa', 'lisa@clinton.com', 64, '444444443');
 INSERT INTO staff ( lastname, firstname, email, age, ssn) VALUES ('Ben', 'Mohamed', 'mohamed@ben.com', 50, '555555554');
 INSERT INTO staff ( lastname, firstname, email, age, ssn) VALUES ('Franklin', 'Jasmine', 'jasmine@franklin.com', 42, '666666665');
+
+#Inserting classes in table classes
+
+INSERT INTO classes ( course_id, staff_id, room, section, year,type ) VALUES (2, 3, 101, 1, 2019, 'Spring');
+INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (3, 3, 102, 1, 2019, 'Spring');
+INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (4, 4, 103, 1, 2019, 'Spring');
+INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (4, 6, 104, 2, 2019, 'Spring');
+INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (5, 1, 105, 1, 2019, 'Spring');
+INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (1, 2, 106, 1, 2019, 'Spring');
+
