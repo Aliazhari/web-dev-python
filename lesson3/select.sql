@@ -15,4 +15,6 @@ SELECT * FROM students WHERE lastname LIKE '%S%';
 SELECT  DISTINCT age, lastname FROM students;
 SELECT * FROM STUDENTS WHERE lastname = 'Smith' OR age = 23;
 SELECT COUNT(*) FROM (SELECT DISTINCT age FROM students)  AS DistinctAges;
+SELECT * FROM students LIMIT 2;
+SELECT * FROM students ORDER BY  lastname ASC;
 
