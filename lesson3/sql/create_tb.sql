@@ -34,4 +34,18 @@ CREATE TABLE students (
  );
 
 
+ # Creating table classes
+
+ CREATE TABLE classes (
+ id INT NOT NULL AUTO_INCREMENT,
+ course_id INT NOT NULL,
+ staff_id INT NOT NULL,
+ room SMALLINT NOT NULL,
+ section SMALLINT NOT NULL,
+ year SMALLINT NOT NULL,
+ type VARCHAR(10),
+ primary key (id)
+ );
+
+
 
