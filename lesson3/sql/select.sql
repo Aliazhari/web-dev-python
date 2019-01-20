@@ -18,3 +18,7 @@ SELECT COUNT(*) FROM (SELECT DISTINCT age FROM students)  AS DistinctAges;
 SELECT * FROM students LIMIT 2;
 SELECT * FROM students ORDER BY  lastname ASC;
 
+Select name, staff_id, room, section, year, type from classes JOIN courses ON classes.course_id = courses.id;
+
+Select name, lastname as Instructor_Lastname, firstname as Instructor_Firstname, room, section, year, type from classes JOIN courses ON classes.course_id = courses.id JOIN staff ON classes.staff_id = staff.id;
+

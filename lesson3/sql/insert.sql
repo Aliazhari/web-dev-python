@@ -41,4 +41,4 @@ INSERT INTO enrollment ( student_id, class_id) VALUES (2, 1);
 INSERT INTO enrollment ( student_id, class_id) VALUES (3, 1);
 INSERT INTO enrollment ( student_id, class_id) VALUES (4, 3);
 INSERT INTO enrollment ( student_id, class_id) VALUES (5, 3);
-INSERT INTO enrollment ( student_id, class_id) VALUES (6, 3);
+INSERT INTO enrollment ( student_id, class_id) VALUES (7, 3);
