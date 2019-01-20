@@ -34,3 +34,11 @@ INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (4,
 INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (5, 1, 105, 1, 2019, 'Spring');
 INSERT INTO classes ( course_id, staff_id, room, section, year, type) VALUES (1, 2, 106, 1, 2019, 'Spring');
 
+#Inserting students in table enrollment
+
+INSERT INTO enrollment ( student_id, class_id ) VALUES (1, 1);
+INSERT INTO enrollment ( student_id, class_id) VALUES (2, 1);
+INSERT INTO enrollment ( student_id, class_id) VALUES (3, 1);
+INSERT INTO enrollment ( student_id, class_id) VALUES (4, 3);
+INSERT INTO enrollment ( student_id, class_id) VALUES (5, 3);
+INSERT INTO enrollment ( student_id, class_id) VALUES (6, 3);
