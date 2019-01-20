@@ -7,3 +7,11 @@ CREATE TABLE students (
  ssn VARCHAR(10) NOT NULL UNIQUE,
  primary key (id)
  );
+
+ CREATE TABLE courses (
+ id INT NOT NULL AUTO_INCREMENT,
+ name VARCHAR(50) NOT NULL,
+ number VARCHAR(7) NOT NULL,
+ description VARCHAR(255) NOT NULL,
+ primary key (id)
+ );
