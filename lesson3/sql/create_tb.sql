@@ -34,18 +34,27 @@ CREATE TABLE students (
  );
 
 
- # Creating table classes
+# Creating table classes
 
- CREATE TABLE classes (
+CREATE TABLE classes (
+id INT NOT NULL AUTO_INCREMENT,
+course_id INT NOT NULL,
+staff_id INT NOT NULL,
+room SMALLINT NOT NULL,
+section SMALLINT NOT NULL,
+year SMALLINT NOT NULL,
+type VARCHAR(10),
+primary key (id)
+);
+
+# Creating table enrollment
+
+CREATE TABLE enrollment (
  id INT NOT NULL AUTO_INCREMENT,
- course_id INT NOT NULL,
- staff_id INT NOT NULL,
- room SMALLINT NOT NULL,
- section SMALLINT NOT NULL,
- year SMALLINT NOT NULL,
- type VARCHAR(10),
+ student_id INT NOT NULL,
+ class_id INT NOT NULL,
  primary key (id)
- );
+);
 
 
 
