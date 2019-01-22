@@ -7,5 +7,3 @@ mydb = mysql.connector.connect(
 )
 
 print(mydb)
-print(mydb)
-print(mydbb)
