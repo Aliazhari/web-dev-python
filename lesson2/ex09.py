@@ -16,6 +16,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    names = ["Ali", "Mike", "Liz", "Susan", "Bob"]
-    return render_template("index08.html", names=names)
+    return render_template("index09.html")
 
+
+@app.route("/more")
+def more():
+    return render_template("more09.html")
