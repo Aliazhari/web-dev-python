@@ -9,10 +9,12 @@ from flask import Flask, render_template
 # $ sudo lsof -i:5000
 # kill XXXXX
 
+# to avoid such error, make sure you terminate your flask application by CTRL + C
+
 app = Flask(__name__)
 
 
 @app.route("/")
 def index():
-    return render_template("index04.html")
-
+    headline = "Hello world!!!"
+    return render_template("index05.html", headline=headline)
