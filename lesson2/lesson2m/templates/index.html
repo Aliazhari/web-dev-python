@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    Names
+{% endblock %}
+
+{% block body %}
+
+    <ul>
+        {% for name in names %}
+            <li>{{ name }}</li>
+        {% endfor %}
+    </ul>
+
+    <form action="{{ url_for('index') }}" method="post">
+        <input type="text" name="name" placeholder="Enter Name Here">
+        <button>Add Name</button>
+    </form>
+{% endblock %}
