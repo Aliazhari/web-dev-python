@@ -1,0 +1,1 @@
+CREATE INDEX lastname_index ON students (lastname);
