@@ -16,9 +16,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index10.html")
+    return render_template("index.html")
 
 
-@app.route("/more")
-def more():
-    return render_template("more10.html")
+@app.route("/other")
+def other():
+    return render_template("other.html")
