@@ -16,10 +16,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return render_template("index11.html")
+    return render_template("index.html")
 
 
-@app.route("/hello", methods=["POST"])
-def hello():
+@app.route("/other", methods=["POST"])
+def other():
     name = request.form.get("name")
-    return render_template("hello11.html", name=name)
+    return render_template("other.html", name=name)
