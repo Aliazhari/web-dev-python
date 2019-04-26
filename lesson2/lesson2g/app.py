@@ -18,6 +18,6 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     now = datetime.datetime.now()
-    new_year = now.month == 4 and now.day == 25
-    return render_template("index07.html", new_year=new_year)
+    birthday = now.month == 4 and now.day == 25
+    return render_template("index.html", birthday=birthday)
 
