@@ -17,9 +17,9 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     headline = "Hello world!!!"
-    return render_template("index05.html", headline=headline)
+    return render_template("index.html", headline=headline)
 
 @app.route("/bye")
 def bye():
     headline = "Goodbye!!"
-    return render_template("index05.html", headline=headline)
+    return render_template("index.html", headline=headline)
