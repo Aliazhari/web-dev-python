@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+import csv
 
 # before you run flask run in th terminal, you need to set the envirement variable FLASK_APP
 # export FLASK_APP=ex01.py (or whatever this file name is)
@@ -11,11 +12,23 @@ from flask import Flask, render_template
 
 # to avoid such error, make sure you terminate your flask application by CTRL + C
 
+
+def get_population():
+    population = []
+    f = open('../census.csv', 'r')
+    with f:
+        reader = csv.reader(f)
+        next(reader, None)  # skip the headers
+        for row in reader:
+            if int(row[6]) > 3:
+                population.append(row)
+    return population
+
 app = Flask(__name__)
 
 
 @app.route("/")
 def index():
-    names = ["Ali", "Mike", "Liz", "Susan", "Bob"]
-    return render_template("index.html", names=names)
+    rows = get_population()
+    return render_template("index.html", rows=rows)
 

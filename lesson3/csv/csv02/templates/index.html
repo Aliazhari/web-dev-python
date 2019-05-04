@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+   Census
+{% endblock %}
+
+{% block body %}
+
+    <p> There are {{ rows|length }} rows</p>
+<p> {{ rows }} </p>
+
+
+    <form action="{{ url_for('other') }}" method="post">
+        <input type="text" name="num" placeholder="Enter minimum household">
+        <button>Add Name</button>
+    </form>
+{% endblock %}
