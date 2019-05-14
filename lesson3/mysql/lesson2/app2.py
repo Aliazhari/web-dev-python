@@ -13,11 +13,14 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-sql = "INSERT INTO agents (lastname, firstname, name, email, password, avail) VALUES (%s, %s, %s, %s, %s, %s)"
-val = [("Williams", "Susan", "Susan", "wSusan@gmail.com", "1234", 0),
-        ("Thomas", "Amy", "Amy", "tAmy@gmail.com", "1234", 0),
-       ("Clooney", "Betty", "Betty", "cBetty@gmail.com", "1234", 0)
-       ]
+# sql = "INSERT INTO agents (lastname, firstname, name, email, password, avail) VALUES (%s, %s, %s, %s, %s, %s)"
+# val = [("Williams", "Susan", "Susan", "wSusan@gmail.com", "1234", 0),
+#         ("Thomas", "Amy", "Amy", "tAmy@gmail.com", "1234", 0),
+#        ("Clooney", "Betty", "Betty", "cBetty@gmail.com", "1234", 0)
+#        ]
+
+sql = "INSERT INTO chats (agent_id, customer_id) VALUES (%s, %s)"
+val = [(1, 1), (1,2), (2,1)]
 
 mycursor.executemany(sql, val)
 
