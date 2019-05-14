@@ -1,5 +1,7 @@
 # Author: Ali Azhari
 
+# Drop a table
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
@@ -11,9 +13,8 @@ mydb = mysql.connector.connect(
 
 mycursor = mydb.cursor()
 
-mycursor.execute("SELECT * FROM agents")
+sql = "DROP TABLE dump"
 
-myresult = mycursor.fetchall()
+mycursor.execute(sql)
 
-for x in myresult:
-  print(x)
+print("Tabe dump is deleted")
