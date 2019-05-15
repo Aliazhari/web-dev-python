@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2098fe37-d0b8-48de-84ec-e000e8bf6889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson3/sqlalchemy/app01.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lesson3/sqlalchemy/app02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/sqlalchemy/customers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +30,7 @@
           <entry key="csv" value="9" />
           <entry key="html" value="70" />
           <entry key="md" value="7" />
-          <entry key="py" value="181" />
+          <entry key="py" value="182" />
           <entry key="scss" value="1" />
           <entry key="sql" value="22" />
         </counts>
@@ -45,7 +42,7 @@
           <entry key="HTML" value="70" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="181" />
+          <entry key="Python" value="182" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -55,7 +52,7 @@
           <entry key="dummy" value="81" />
           <entry key="html" value="1550" />
           <entry key="md" value="152" />
-          <entry key="py" value="8567" />
+          <entry key="py" value="8573" />
           <entry key="scss" value="10" />
           <entry key="sql" value="3849" />
           <entry key="txt" value="393" />
@@ -67,7 +64,7 @@
           <entry key="HTML" value="1550" />
           <entry key="Markdown" value="152" />
           <entry key="PLAIN_TEXT" value="845" />
-          <entry key="Python" value="8567" />
+          <entry key="Python" value="8573" />
           <entry key="SQL" value="139" />
         </counts>
       </usages-collector>
@@ -99,10 +96,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lesson3/sqlalchemy/app02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="347">
+              <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
               <folding>
-                <element signature="e#27#63#0" expanded="true" />
+                <element signature="e#54#90#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -525,15 +522,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="23" width="1186" height="814" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3141631" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3141631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32963988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -926,10 +922,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/sqlalchemy/app02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="347">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
           <folding>
-            <element signature="e#27#63#0" expanded="true" />
+            <element signature="e#54#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
