@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2098fe37-d0b8-48de-84ec-e000e8bf6889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ali.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app00.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app22.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson3/mongodb/app23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/sqlalchemy/app00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/sqlalchemy/app01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +32,7 @@
           <entry key="csv" value="8" />
           <entry key="html" value="70" />
           <entry key="md" value="7" />
-          <entry key="py" value="169" />
+          <entry key="py" value="171" />
           <entry key="scss" value="1" />
           <entry key="sql" value="22" />
         </counts>
@@ -67,7 +44,7 @@
           <entry key="HTML" value="70" />
           <entry key="Markdown" value="7" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="169" />
+          <entry key="Python" value="171" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
@@ -77,7 +54,7 @@
           <entry key="dummy" value="81" />
           <entry key="html" value="1550" />
           <entry key="md" value="152" />
-          <entry key="py" value="7451" />
+          <entry key="py" value="8020" />
           <entry key="scss" value="10" />
           <entry key="sql" value="3849" />
           <entry key="txt" value="393" />
@@ -89,7 +66,7 @@
           <entry key="HTML" value="1550" />
           <entry key="Markdown" value="152" />
           <entry key="PLAIN_TEXT" value="660" />
-          <entry key="Python" value="7451" />
+          <entry key="Python" value="8020" />
           <entry key="SQL" value="139" />
         </counts>
       </usages-collector>
@@ -120,15 +97,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson3/mongodb/app06.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="83" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -169,20 +137,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson3/mongodb/app23.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="225">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lesson3/mongodb/app07.py">
+        <entry file="file://$PROJECT_DIR$/lesson3/sqlalchemy/app01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="180">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="11" selection-end-line="17" selection-end-column="10" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson3/sqlalchemy/app00.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#23#59#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,8 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lesson3/mysql/lesson2/app.py" />
-        <option value="$PROJECT_DIR$/lesson3/mysql/lesson0/app1.py" />
         <option value="$PROJECT_DIR$/lesson3/mysql/lesson0/app.py" />
         <option value="$PROJECT_DIR$/lesson3/mysql/lesson1/README.md" />
         <option value="$PROJECT_DIR$/lesson3/mysql/lesson0/app2.py" />
@@ -262,6 +243,8 @@
         <option value="$PROJECT_DIR$/lesson3/mongodb/app21.py" />
         <option value="$PROJECT_DIR$/lesson3/mongodb/app22.py" />
         <option value="$PROJECT_DIR$/lesson3/mongodb/app23.py" />
+        <option value="$PROJECT_DIR$/lesson3/sqlalchemy/app01.py" />
+        <option value="$PROJECT_DIR$/lesson3/sqlalchemy/app00.py" />
       </list>
     </option>
   </component>
@@ -293,13 +276,7 @@
               <item name="web-dev-python" type="b2602c69:ProjectViewProjectNode" />
               <item name="web-dev-python" type="462c0819:PsiDirectoryNode" />
               <item name="lesson3" type="462c0819:PsiDirectoryNode" />
-              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web-dev-python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web-dev-python" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
-              <item name="mysql" type="462c0819:PsiDirectoryNode" />
+              <item name="sqlalchemy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -339,8 +316,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app23">
-    <configuration name="app05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.app00">
+    <configuration name="app00" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="web-dev-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,11 +325,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3/mongodb" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3/sqlalchemy" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/mongodb/app05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/sqlalchemy/app00.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="web-dev-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3/sqlalchemy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/sqlalchemy/app01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,27 +372,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/mongodb/app09.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app21" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="web-dev-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson3/mongodb" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3/mongodb/app21.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,18 +424,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.app09" />
-      <item itemvalue="Python.app05" />
-      <item itemvalue="Python.app21" />
       <item itemvalue="Python.app22" />
       <item itemvalue="Python.app23" />
+      <item itemvalue="Python.app01" />
+      <item itemvalue="Python.app00" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app00" />
+        <item itemvalue="Python.app01" />
         <item itemvalue="Python.app23" />
         <item itemvalue="Python.app09" />
         <item itemvalue="Python.app22" />
-        <item itemvalue="Python.app21" />
-        <item itemvalue="Python.app05" />
       </list>
     </recent_temporary>
   </component>
@@ -585,13 +562,13 @@
     <frame x="116" y="23" width="1186" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3141631" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3141631" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="DB Browser" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32963988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49913344" visible="true" weight="0.32963988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -628,23 +605,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update lesson3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lesson3/mysql/lesson1/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lesson3/mysql/lesson0/app1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/mysql/lesson0/app0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -985,8 +945,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson3/mongodb/app23.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="225">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/sqlalchemy/app01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="11" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/sqlalchemy/app00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#23#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
